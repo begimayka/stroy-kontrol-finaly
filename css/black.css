@@ -1,0 +1,128 @@
+.black{
+    background: #212B31;
+    position: relative;
+    padding-top: 143px;
+    padding-bottom: 118px;
+    margin-top: 192px;
+
+}
+
+.black__info h2{
+color: #FFF;
+font-family: Inter;
+font-size: 32px;
+}
+.black__marker h3{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    margin: 0;
+}
+.black__marker p{
+    color: rgba(255, 255, 255, 0.75);
+font-family: Inter;
+font-size: 16px;
+max-width: 429px;
+}
+
+.black__btns{
+    font-size: 18px;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 4px;
+    font-family: Inter;
+    flex-wrap: wrap;
+}
+
+.black__btns.white{
+    background: #FFF;
+    border: 1px solid #DADEDF;
+    color: #212B31;
+}
+
+.black__btns.black{
+    color: #FFF;
+    border: 1px solid #DADEDF;
+    background: transparent;
+    
+}
+.black__marker h3:before{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #FFF;
+    border-radius:100%;
+    left: -32px;
+    top: 8px;
+
+}
+.black__marker{
+    padding-left:40px ;
+}
+
+.black__markers{
+    max-width: 549px;
+    row-gap: 24px;
+    margin: 50px 0 50px 0;
+
+}
+
+.black__img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 143px;
+    
+}
+
+.black__item h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+}
+.black__item p{
+    color: rgba(255, 255, 255, 0.75);
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+max-width: 340px;
+}
+
+.black__bottom{
+    display: flex;
+    margin-top: 127px;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.black__item img{ 
+    width: 48px;
+    height: 48px;
+    margin-left: 140px;
+    gap: 18px;
+}
+
+@media screen and (max-width:1075px){
+    .black__content {
+        /* background: rgba(0, 0, 0, 0.5); */
+        background: rgb(0, 0, 0);
+        background: linear-gradient(90deg,rgba(0,0,0,1)0%, rgba(255,255,255,0)100%);
+        padding: 20px;
+    }
+    .black__img{
+        opacity: .1;
+
+    }
+
+}
+
+@media screen and (max-width:371px){
+    .black__btns{
+        justify-content: center;
+    }
+}

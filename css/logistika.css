@@ -1,0 +1,85 @@
+.logistika__kontent{
+    
+color: #212B31;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+}
+
+.bottom1{
+border-radius: 4px;
+border: 1px solid #212B31;
+background: #212B31;
+box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.16);
+color: #FFF;
+text-align: center;
+font-family: Arial;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+}
+
+.bottom2{
+    border-radius: 4px;
+    border: 1px solid #DADEDF;
+    background: #FFF;
+    color: #212B31;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+
+/* .footer__bottom{
+    display: flex;
+padding: 13px 25px;
+align-items: center;
+gap: 10px;
+} */
+
+.logistika__img{
+    position: absolute;
+    z-index: 0;
+}
+
+.logistika__img img{
+    max-width: 100%;
+}
+
+.logistika__main{
+    padding-top: 10px;
+
+position: relative;
+
+z-index: 4;
+
+
+}
+ 
+.logistika{
+    margin-top: 100px;
+}
+    .logistika__main h3{
+        color: #212B31;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+max-width: 980px;
+/* margin: 117px 38px 221px; */
+    }
+
+    .logistika__bottom{
+        margin-bottom: 117px;
+    }
+
+    @media screen and (max-width:766px) {
+        .logistika__bottom {
+            margin-bottom: 200px;
+        }
+    
+    } 

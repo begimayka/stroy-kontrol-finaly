@@ -1,0 +1,82 @@
+.item h4{
+    color: #212B31;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.item p{
+color: #72787D;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400; 
+text-align: center; 
+margin-bottom: 20px; 
+flex-wrap: wrap;  
+                                                        
+}
+
+.item1 img{
+width: 22px;
+height: 33px;
+}
+
+.item1 h4{
+    color: #212B31;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+   
+    text-transform: uppercase;
+}
+
+.item1 p{
+    color: #72787D;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+.footer__content{
+    display: flex;
+    gap:160px  
+}
+
+.item1{
+    display: flex;
+    /*   */
+}
+.footer__logo{
+    margin-top: 10px;
+    display: flex;
+}
+
+.footer{
+    margin-top: 200px;
+}
+.footer__logo2{
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+}
+
+.footer__logo h4{
+    color: #212B31;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;        
+}
+
+.footer__logo p, span{
+    color: #72787D;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400
+}
